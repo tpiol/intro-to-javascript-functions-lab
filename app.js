@@ -114,6 +114,16 @@ Example: maxOfThree(17, 4, 9) should return 17.
 Complete the exercise in the space below:
 */
 
+function maxOfThree (numberOne, numberTwo, numberThree) {
+    if ( numberOne > numberTwo && numberThree) {
+        return numberOne;
+    } else if (numberTwo > numberOne && numberThree) {
+        return numberTwo;
+    } else {
+        return numberThree;
+    }
+
+}
 
 
 console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
