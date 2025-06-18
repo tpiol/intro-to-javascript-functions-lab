@@ -192,6 +192,17 @@ Example: basicCalculator(10, 5, 'subtract') should return 5.
 Complete the exercise in the space below:
 */
 
+function basicCalculator(firstNumber,secondNumber,sign) {
+    if (sign === 'add') {
+        return firstNumber + secondNumber; 
+    } else if (sign === 'subtract') {
+        return firstNumber - secondNumber;
+    } else if (sign === 'multiply'){
+        return firstNumber * secondNumber;
+    } else if (sign === 'divide') {
+        return firstNumber / secondNumber;
+    }
+}
 
 
 console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
